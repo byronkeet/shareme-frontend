@@ -103,7 +103,7 @@ const Pin = ({ pin }) => {
 											{destination.length > 20 ? destination.slice(8,20) : destination.slice(8)}
 										</a>
 									)}
-									{postedBy?.id === user?.sub && (
+									{postedBy?._id === user?.sub && (
 										<button
 											type='button'
 											onClick={(e) => {
