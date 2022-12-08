@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Navbar from '../components/Navbar';
 import Feed from '../components/Feed';
-import PinDetail from '../components/Feed';
+import PinDetail from '../components/PinDetail';
 import CreatePin from '../components/CreatePin';
 import Search from '../components/Search';
 
